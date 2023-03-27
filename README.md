@@ -17,6 +17,7 @@ Eu gosto de separar dessa forma, pois além de ser uma boa prática de programa�
 
 Depois disso, eu decidi para as minhas estilizações utilizar o styled-components, o motivo foi além do fato de eu estar mais familiarizado com o CSS-in-JS, eu considero o styled components perfeito para esse tipo de projeto, que eu preciso reutilizar o mesmo estilo varias vezes, ou preciso modificar alguma pequena coisa, então posso usar o theme para isso que facilita muito na hora do desenvolvimento.
 
+https://styled-components.com/
 ![image](https://user-images.githubusercontent.com/40373628/227834589-292d7a28-7098-4c57-bb30-f924c39c011c.png)
 
 ![image](https://user-images.githubusercontent.com/40373628/227834655-13f1df0a-9b7a-4fa9-bb60-4f0c778038be.png)
@@ -24,4 +25,14 @@ Depois disso, eu decidi para as minhas estilizações utilizar o styled-componen
 Por fim, eu decidi separar por exemplo aqui na minha home, o meu codigo em varios pequenos componentes, assim  eu considero que o codigo ficou bem legivel e de facil manutenção, então se eu quiser alterar só o header por exemplo, eu consigo acessar o meu componente e modificar somente ele, sem alterar em nada o restante do meu código.
 
 ![image](https://user-images.githubusercontent.com/40373628/227835050-bb220124-eb5e-46a7-a53a-7ff71692b0f7.png)
-![image](https://user-images.githubusercontent.com/40373628/227835051-86402ccc-b0ef-4bde-bc67-369dc15a6cdf.png)
+
+E em relação ao desafio, o principal problema foi a criação da dashboard, eu pensei em algumas bibliotecas que eu poderia estar utilizando, mas visando o layout que me foi passado para usar como referência, decidi utilizar o apex charts, ele contém uma documentação bem elaborada e de facil uso, então ele conseguiu sanar totalmente os meus problemas e foi suficiente para conseguir estar realizando o desafio.
+
+https://apexcharts.com/
+![image](https://user-images.githubusercontent.com/40373628/227835478-0c3c4cf2-8398-4d99-ac16-058507e92cc0.png)
+![image](https://user-images.githubusercontent.com/40373628/227835555-e47a71c4-469c-4701-bb0e-01ccf0153c6f.png)
+![image](https://user-images.githubusercontent.com/40373628/227835613-8fef7b0d-d8a6-4d48-a468-cf3bfa8077c1.png)
+
+
+
+
