@@ -81,7 +81,7 @@ const Registration = () =>  {
         </Select>
         <Label htmlFor="state">Estado</Label>
         <Select name="state" value={formData.state || ''} onChange={handleStateChange}>
-        <option value="" disabled hidden></option>
+          <option value="" disabled hidden></option>
           <option value="São Paulo">São Paulo</option>
           <option value="Rio de Janeiro">Rio de Janeiro</option>
           <option value="Minas Gerais">Minas Gerais</option>

@@ -8,6 +8,10 @@ import {
   ProfileContainer,
   ProfileName,
   ProfileOccupation,
+  IconPhotoBorder,
+  UserPhotoIconWrapper,
+  UserPhotoIcon,
+  UserIcon,
 } from "./styles";
 
 import { FaUser } from "react-icons/fa";
@@ -19,10 +23,12 @@ const Navbar = () => {
   return (
     <NavbarContainer isOpen={isExpanded}>
       <div>
-        <NavbarHeader>
-        <FaUser className="icon" color="white" size={60} />
-        </NavbarHeader>
-
+        <UserPhotoIconWrapper>
+          <UserPhotoIcon>
+            <UserIcon />
+          </UserPhotoIcon>
+        </UserPhotoIconWrapper>
+      
         <ProfileContainer isOpen={isExpanded}>
           <ProfileName>Silva Junior</ProfileName>
           <ProfileOccupation>silva.junior@empresa.com</ProfileOccupation>
