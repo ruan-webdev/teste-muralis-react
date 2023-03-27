@@ -1,19 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
 import ApexCharts from 'react-apexcharts';
 import { ApexOptions } from 'apexcharts';
+import CalendarDashboard from '../Calendar/CalendarDashboard';
+import { DashboardChart, DashboardContainer } from './styles';
 
-const DashboardContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-`;
-
-const DashboardChart = styled.div`
-  margin-top: 2rem;
-`;
 
 const DashboardLines: React.FC = () => {
   const data = [
@@ -24,33 +14,38 @@ const DashboardLines: React.FC = () => {
   const series = data.map(({ course, data }) => ({ name: course, data }));
 
   const options: ApexOptions = {
-    chart: {
-      type: 'area',
-      height: 150,
-      toolbar: {
-        show: false,
+      chart: {
+        type: 'area',
+        height: 150,
+        toolbar: {
+          show: false,
+        },
       },
-    },
-    plotOptions: {
-    },
-    dataLabels: {
-      enabled: false
-    },
-    fill: {
-        opacity: 1,
-        gradient: {
-            shadeIntensity: 1,
-            opacityFrom: 0.7,
-            opacityTo: 0.3,
-            stops: [0, 90, 100],
-        },
-    },
-
-    xaxis: {
-        labels: {
-            show: false,
-        },
-    },
+      dataLabels: {
+        enabled: false
+      },
+      fill: {
+          opacity: 1,
+          gradient: {
+              shadeIntensity: 1,
+              opacityFrom: 0.7,
+              opacityTo: 0.3,
+              stops: [0, 90, 100],
+          },
+      },
+      grid: {
+        borderColor: "#555",
+        yaxis: {
+          lines: {
+            show: false
+          }
+        }
+      },
+      xaxis: {
+          labels: {
+              show: false,
+          },
+      },
     yaxis: {
       show: false,
       min: 10,
@@ -67,7 +62,8 @@ const DashboardLines: React.FC = () => {
   return (
     <DashboardContainer>
       <DashboardChart>
-        <ApexCharts options={options} series={series} type="area" height={350} />
+        <ApexCharts width={850} options={options} series={series} type="area" height={320} />
+        <CalendarDashboard/>
       </DashboardChart>
     </DashboardContainer>
   );

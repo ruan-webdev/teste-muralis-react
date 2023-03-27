@@ -14,7 +14,7 @@ const HomePage = () => {
           <Square />
           <ContentContainer>
             <Dashboard />
-            <DashboardPie percent={40} labelA={""} labelB={""}  />
+            <DashboardPie percent={40}  />
           </ContentContainer>
       </HeaderContainer>
     </AppContainer>

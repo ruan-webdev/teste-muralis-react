@@ -15,7 +15,7 @@ const fadeIn = keyframes`
 `;
 
 export const NavbarContainer = styled.div<NavbarProps>`
-  width: ${({ isOpen }) => isOpen ? '18rem' : '4.5rem'};
+  width: ${({ isOpen }) => isOpen ? '20rem' : '4.5rem'};
   height: 130vh;
   background-color: #0e3358;
   display: flex;
