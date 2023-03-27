@@ -8,7 +8,6 @@ import {
   ProfileContainer,
   ProfileName,
   ProfileOccupation,
-  IconPhotoBorder,
   UserPhotoIconWrapper,
   UserPhotoIcon,
   UserIcon,
