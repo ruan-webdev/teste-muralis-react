@@ -2,25 +2,39 @@ import styled from 'styled-components';
 
 export const DashboardColumns = styled.div`
   display: flex;
-  flex-direction: column;
-  width: 70%;
-  gap: 2rem;
+  flex-direction: row;
+  width: 100%;
+  gap: 1rem;
   padding-left: 2rem;
-  
+  margin-top: 1rem;
+ 
 `;
 
 export const DashboardContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 900px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+`;
+
+export const DashboardLinesContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+`;
+
+export const DashboardColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
 `;
 
 export const DashboardRow = styled.div`
   display: flex;
   flex-direction: row;
-  width: 80%;
-  padding: 0 1.2rem;
+  margin-right: 1rem;
 `;
 
 

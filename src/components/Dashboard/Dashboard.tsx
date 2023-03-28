@@ -2,7 +2,9 @@ import React from 'react';
 import ApexCharts from 'react-apexcharts';
 import { ApexOptions } from 'apexcharts';
 import DashboardLines from '../DashboardLines/DashboardLines';
-import { DashboardChart, DashboardColumns, DashboardContainer, DashboardTitle } from './styles';
+import { DashboardChart, DashboardColumn, DashboardColumns, DashboardContainer, DashboardLinesContainer, DashboardRow, DashboardTitle } from './styles';
+import DashboardPie from '../DashboardPie/DashboardPie';
+import CalendarDashboard from '../Calendar/CalendarDashboard';
 
 const Dashboard: React.FC = () => {
   const data = [
@@ -54,16 +56,25 @@ const Dashboard: React.FC = () => {
 
   return (
     <DashboardColumns>
-      <DashboardContainer>
-          <DashboardTitle>Inscritos</DashboardTitle>
-          <DashboardChart>
-            <ApexCharts options={options} series={series} type="bar" height={200} />
-          </DashboardChart>
-      </DashboardContainer>
-      <DashboardLines />
+        <DashboardColumn>
+          <DashboardContainer>
+              <DashboardTitle>Inscritos</DashboardTitle>
+              <DashboardChart>
+                <ApexCharts options={options} series={series} type="bar" height={150} />
+              </DashboardChart>
+          </DashboardContainer>
+            <DashboardLinesContainer>
+                <DashboardLines />
+                <CalendarDashboard/>
+            </DashboardLinesContainer>
+        </DashboardColumn>
+        <DashboardColumn>
+          
+        </DashboardColumn>
+        <DashboardRow>
+              <DashboardPie percent={40} />
+        </DashboardRow>
     </DashboardColumns>
- 
-    
   );
 };
 

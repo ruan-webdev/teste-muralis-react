@@ -16,7 +16,7 @@ const DashboardLines: React.FC = () => {
   const options: ApexOptions = {
       chart: {
         type: 'area',
-        height: 250,
+        height: '20%',
         toolbar: {
           show: false,
         },
@@ -33,6 +33,7 @@ const DashboardLines: React.FC = () => {
               stops: [0, 90, 100],
           },
       },
+
       grid: {
         borderColor: "#555",
         yaxis: {
@@ -62,8 +63,8 @@ const DashboardLines: React.FC = () => {
   return (
     <DashboardContainer>
       <DashboardChart>
-        <ApexCharts width={800} options={options} series={series} type="area" height={320} />
-        <CalendarDashboard/>
+        <ApexCharts  width={520} options={options} series={series} type="area" height={220} />
+        {/* <CalendarDashboard/> */}
       </DashboardChart>
     </DashboardContainer>
   );

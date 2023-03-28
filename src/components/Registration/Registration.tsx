@@ -64,7 +64,9 @@ const Registration = () =>  {
   return (
     <Container>
       <Form onSubmit={handleSubmit}>
-      <legend>Cadastro de ingressantes</legend>
+
+        <legend>Cadastro de ingressantes</legend>
+
       <Label htmlFor="name">Nome</Label>
         <Input
           type="text"
@@ -96,7 +98,7 @@ const Registration = () =>  {
         ))}
         </Select>
         <ButtonGroup>
-          <Button color='yellow' type="button">Voltar</Button>
+          <Button style={{marginTop: 10}} color='yellow' type="button">Voltar</Button>
           <Button color='green' onClick={notify} type="submit" >Gravar</Button>
 	      </ButtonGroup>
       </Form>

@@ -17,44 +17,47 @@ export const Form = styled.form`
   flex-direction: column;
   margin: 0 auto;
   border: 1px solid  #4573c4;
-  border-radius: 8px;
-  padding: 5px;
+  border-radius: 1px;
+  
   padding-bottom: 10px;
 
   legend {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #FFFFFF;
     background-color:  #4573c4;
     text-align: center;
     margin-bottom: 10px;
-    padding: 0px;
+    padding: 20px;
   }
 `;
 
 export const Input = styled.input`
-  margin-bottom: 5px;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   border: 1px solid #4573c4;
-  width: 100%; 
+  width: 97%;
+  margin: 5px; 
 `;
 
 export const Select = styled.select`
-  margin-bottom: 5px;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   border: 1px solid #4573c4;
-  width: 100%; 
-  margin-right: 0; 
+  width: 97%; 
+  margin: 5px; 
+
+  option {
+    font-size: 1rem;
+  }
   
 `;
 
 export const Label = styled.label`
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 2px;
+  margin-top: 2px;
   color: #000;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-left: 5px;
 `;
 
@@ -70,10 +73,11 @@ export const Button = styled.button`
   margin: 0 10px;
   padding: 5px 15px;
   border: none;
+  height: ${props => props.color === 'green' ? '40px' : props.color === 'yellow' ? '30px' : '20px'};
+  width: 100px;
   border-radius: 5px;
   background-color: ${props => props.color === 'green' ? '#70ac39' : props.color === 'yellow' ? '#fec000' : '#0077cc'};
   color: #fff;
-  font-size: 1rem;
   cursor: pointer;
   font-size: 0.8rem;
 `;

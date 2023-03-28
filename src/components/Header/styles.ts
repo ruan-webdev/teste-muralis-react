@@ -6,21 +6,23 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 24px;
+
+
 `;
 
 export const Title = styled.h1`
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: regular;
   color: #333;
-  margin-left: 50px;
+  margin-left: 2rem;
   margin-top: 12px;
   align-self: flex-start;
 `;
 
 export const Icon = styled(FiMenu)`
-  font-size: 45px;
+  font-size: 35px;
   color: #333;
+  margin-right: 2rem;
   align-self: flex-end;
   margin-bottom: 5px;
 `;
