@@ -2,12 +2,19 @@ import styled from 'styled-components';
 import 'react-calendar/dist/Calendar.css';
 
 export const CalendarWrapper = styled.div`
-  padding: 2rem 10px;
-  width: 50%;
-  border: none;
-  background-color: white;
+  padding: 5rem 15px;
+  width: 25%;
+  height: 10%;
+  max-width: 25%;
+  border: none; 
 
   .current-day {
     background-color: #fd9e15;
   }
+
+  .react-calendar {
+    border: none;
+  }
+
+
 `;
