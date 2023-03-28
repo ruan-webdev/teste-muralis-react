@@ -3,7 +3,13 @@ Teste Técnico para a empresa Muralis utilizando a linguagem React JS
 
 O objetivo do desafio era de medir as capacidades técnicas do front-end utilizando a linguagem React JS desenvolvendo uma tela de cadastro e uma outra tela de dashboard.
 
-Então com base nisso, primeiramente, utilizei o Vite para a criação da nossa aplicação, o motivo de eu ter utilizado essa ferramenta foi pela praticidade e velocidade em se criar um projeto, sendo uma das ferramentas mais recomendadas para se utilizar nas soluções web atualmente, além de eu selecionar a opção de typecript, pois tenho a visão que o typescript facilita muito a identificar os erros de tipagem, além de deixar o projeto muito mais escalonável e legivel.
+O link para ver o resultado final é esse:
+
+https://teste-muralis-react.vercel.app/
+
+EXPLICAÇÃO:
+
+Para a criação da aplicação, eu decidi utilizar o Vite. O motivo de eu ter utilizado essa ferramenta foi pela praticidade e velocidade em se criar um projeto, sendo uma das ferramentas mais recomendadas para se utilizar nas soluções web atualmente, além de disponibilizar a opção de criação da aplicação junto ao typecript, o que facilita muito a identificar os erros de tipagem, além de deixar o projeto muito mais escalonável e legivel.
 
 https://vitejs.dev/  
 ![image](https://user-images.githubusercontent.com/40373628/227832845-4edb85c9-a817-4ceb-a055-ab2e0daffd3b.png)
@@ -33,7 +39,9 @@ https://apexcharts.com/
 ![image](https://user-images.githubusercontent.com/40373628/227835555-e47a71c4-469c-4701-bb0e-01ccf0153c6f.png)
 
 O resultado final: 
-![image](https://user-images.githubusercontent.com/40373628/228109655-c6079bf7-f9b6-4d3b-813c-4e27d1c1af0a.png)
+![image](https://user-images.githubusercontent.com/40373628/228340366-575cf3e3-5900-41d3-aa6b-3a4e43a11270.png)
+![image](https://user-images.githubusercontent.com/40373628/228340392-3bc2616f-de08-48dd-97d4-c906105da531.png)
+
 
 
 
