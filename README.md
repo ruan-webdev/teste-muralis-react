@@ -31,7 +31,9 @@ E em relação ao desafio, o principal problema foi a criação da dashboard, eu
 https://apexcharts.com/
 ![image](https://user-images.githubusercontent.com/40373628/227835478-0c3c4cf2-8398-4d99-ac16-058507e92cc0.png)
 ![image](https://user-images.githubusercontent.com/40373628/227835555-e47a71c4-469c-4701-bb0e-01ccf0153c6f.png)
-![image](https://user-images.githubusercontent.com/40373628/227835613-8fef7b0d-d8a6-4d48-a468-cf3bfa8077c1.png)
+
+O resultado final: 
+![image](https://user-images.githubusercontent.com/40373628/228109655-c6079bf7-f9b6-4d3b-813c-4e27d1c1af0a.png)
 
 
 
