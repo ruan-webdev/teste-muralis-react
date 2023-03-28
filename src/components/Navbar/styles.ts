@@ -16,10 +16,10 @@ const fadeIn = keyframes`
 `;
 
 export const NavbarContainer = styled.div<NavbarProps>`
-  width: ${({ isOpen }) => isOpen ? '20rem' : '4.5rem'};
-  height: 130vh;
+  width: ${({ isOpen }) => isOpen ? '25rem' : '4.5rem'};
   background-color: #0e3358;
   display: flex;
+  height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;

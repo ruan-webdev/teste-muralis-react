@@ -57,10 +57,10 @@ const Dashboard: React.FC = () => {
       <DashboardContainer>
           <DashboardTitle>Inscritos</DashboardTitle>
           <DashboardChart>
-            <ApexCharts options={options} series={series} type="bar" height={350} />
+            <ApexCharts options={options} series={series} type="bar" height={200} />
           </DashboardChart>
-        </DashboardContainer>
-        <DashboardLines />
+      </DashboardContainer>
+      <DashboardLines />
     </DashboardColumns>
  
     

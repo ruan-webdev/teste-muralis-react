@@ -6,10 +6,8 @@ export const DashboardContainer = styled.div`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border: 1px solid #ccc;
   margin-left: 3rem;
-
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 20%;
+  height: 90%;
+  
 `;
 
 export const DashboardTitle = styled.h1`

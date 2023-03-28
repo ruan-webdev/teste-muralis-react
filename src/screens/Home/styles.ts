@@ -9,8 +9,6 @@ export const PageContainer = styled.div`
 
 export const AppContainer = styled.div`
   display: flex;
-  flex-direction: row;
-  height: 100vh;
   background-color: ${(props) => props.theme.colors.background};
 `;
 
@@ -26,6 +24,4 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 5rem;
-  margin-bottom: 1rem;
 `;

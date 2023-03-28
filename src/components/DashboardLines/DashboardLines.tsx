@@ -16,7 +16,7 @@ const DashboardLines: React.FC = () => {
   const options: ApexOptions = {
       chart: {
         type: 'area',
-        height: 150,
+        height: 250,
         toolbar: {
           show: false,
         },
@@ -62,7 +62,7 @@ const DashboardLines: React.FC = () => {
   return (
     <DashboardContainer>
       <DashboardChart>
-        <ApexCharts width={850} options={options} series={series} type="area" height={320} />
+        <ApexCharts width={800} options={options} series={series} type="area" height={320} />
         <CalendarDashboard/>
       </DashboardChart>
     </DashboardContainer>

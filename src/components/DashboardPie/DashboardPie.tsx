@@ -46,7 +46,7 @@ type DashboardPieProps = {
   
     return (
         <DashboardContainer> 
-                <ApexChart options={options} series={options.series}  type="donut" height={300} />
+                <ApexChart options={options} series={options.series}  type="donut" height={250} />
                 <DashboardTitle style={{marginTop:30}}>Curso A</DashboardTitle>
                 <Separator />
                 <DashboardTitle>Curso B</DashboardTitle>
